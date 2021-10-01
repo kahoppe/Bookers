@@ -34,18 +34,10 @@ td {
   padding-right: 5px;
 }
 
-div.field, div.actions {
-  margin-bottom: 10px;
-}
-
 div {
   display: block;
 }
 
 label {
   display: block;
-}
-
-#notice {
-  color: green;
 }

@@ -7,7 +7,6 @@ class BooksController < ApplicationController
   def show
     @book = Book.find(params[:id])
     @books = Book.all
-
   end
 
   def edit
@@ -22,7 +21,6 @@ class BooksController < ApplicationController
     else
       render :edit
     end
-
   end
 
   def create
